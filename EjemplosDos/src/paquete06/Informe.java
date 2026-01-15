@@ -18,14 +18,13 @@ public class Informe {
                 + "Ciudad: %s\n"
                 + "Nombre de la Empresa: %s\n"
                 + "Dirección de la Empresa: %s\n"
-                + "Notas: %s\n",
+                + "Notas:\n",
                 cadena,
                 n,
                 a,
                 c,
                 nE,
-                dE,
-                notas);
+                dE);
         for (int i = 0; i < notas.length; i++) {
             cadena = String.format("%s %.2f ",cadena , notas[i]);
         }
